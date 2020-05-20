@@ -92,7 +92,7 @@ d3.csv("scatterdata.csv").then(function(data) {
                 .duration(200)		
                 .style("opacity", .9); // fade transitoin		
             div	.html(d.country + "<br/>"
-                     + "<div class='left'>Population </div>" + "<div class='center'>:</div>" +"<div class='right'>" + d.population + "</div>" + "<br/>"
+                     + "<div class='left'>Population (Million)</div>" + "<div class='center'>:</div>" +"<div class='right'>" + d.population + "</div>" + "<br/>"
                      + "<div class='left'>GDP </div>" + "<div class='center'>:</div>" + "<div class='right'>" + d.gdp + "</div>" + "<br/>"
                      + "<div class='left'>ECC </div>" + "<div class='center'>:</div>" + "<div class='right'>" + d.ecc + "</div>" + "<br/>"
                      + "<div class='left'>Total </div>" + "<div class='center'>:</div>" +"<div class='right'>" + d.ec + "</div>")	 // text content of tooltip
